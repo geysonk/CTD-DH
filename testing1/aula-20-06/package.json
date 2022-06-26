@@ -1,0 +1,14 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "main": "calc.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "author": "Geyson",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

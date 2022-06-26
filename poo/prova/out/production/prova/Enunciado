@@ -1,0 +1,24 @@
+Uma empresa precisa construir um sistema para gerenciar os contratos de
+trabalho que seus funcionários têm.
+Um contrato só pode corresponder a uma única pessoa e os dados necessários
+desta pessoa são: nome, sobrenome, RG e idade. Use um construtor que
+permita atribuir todos os atributos quando precisar criar um objeto.
+Os contratos, além de ter uma pessoa associada, têm o número de meses de
+duração, a data em que a pessoa iniciou a atividade e se foi registrado no
+Ministério do Trabalho.
+Existem duas variantes de contratos: horitas e mensais. Ambos possuem todas
+as características que mencionamos anteriormente, mas os horistas também
+possuem o número de horas contratadas por mês e o valor da hora. Já os
+contratos mensais possuem salário mensal, total de horas e cargo: “funcionário”,
+“supervisor”, “chefe”.
+
+
+O sistema deve ter as seguintes funcionalidades:
+● De qualquer tipo de contrato, devemos saber se o funcionário pode ser
+adicionado ao trabalho. Para poder ser adicionado no trabalho, o
+funcionário deve estar registrado no Ministério do Trabalho.
+● No caso de contratos por hora deve ser possível compará-los. Um
+contrato por hora é maior que outro de acordo com o número de horas
+contratadas.
+● É importante ter alguma funcionalidade nos contratos mensais para saber
+se o funcionário tem uma posição de “chefe”.
