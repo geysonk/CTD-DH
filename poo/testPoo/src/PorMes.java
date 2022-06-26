@@ -1,38 +1,42 @@
+import java.util.Date;
+
 public class PorMes extends Contrato {
     private double salarioMes;
     private int totalHora;
     private String posicao;
 
-    public PorMes(int duracaoContrato, String dataInicial, Funcionario funcionario, double salarioMes, int totalHora, String posicao) {
-        super(duracaoContrato, dataInicial, funcionario);
+    public PorMes(int duracaoContrato, String dataInicial, Funcionario funcionario, Cargo cargo, double salarioMes, int totalHora, String posicao) {
+
+        super(duracaoContrato, dataInicial, funcionario, cargo);
+
         this.salarioMes = salarioMes;
         this.totalHora = totalHora;
         this.posicao = posicao;
     }
-
     public double getSalarioMes() {
         return salarioMes;
-    }
-
-    public void setSalarioMes(double salarioMes) {
-        this.salarioMes = salarioMes;
     }
 
     public int getTotalHora() {
         return totalHora;
     }
 
-    public void setTotalHora(int totalHora) {
-        this.totalHora = totalHora;
-    }
-
     public String getPosicao() {
         return posicao;
     }
 
-    public void setPosicao(String posicao) {
-        this.posicao = posicao;
+    @Override
+    public Funcionario getfuncionario() {
+        return super.getfuncionario();
     }
 
+    @Override
+    public String toString() {
+        return getfuncionario() + "\n" +
+               getCargo() + "\n" +
+               "Salario mes: " + getSalarioMes() + "\n" +
+               "Total Horas mes: " + getTotalHora() + "\n" +
+               "Posicao: " + getPosicao();
+    }
 
 }

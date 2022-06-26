@@ -1,52 +1,33 @@
 import java.time.LocalDate;
+import java.util.Date;
 
-public abstract class Contrato implements Comparable<Contrato> {
+public abstract class Contrato{
     private int duracaoContrato;
-    private LocalDate dataInicial;
+    private String dataInicial;
     Funcionario funcionario;
 
-    public Contrato(int duracaoContrato, String dataInicial, Funcionario funcionario) {
+    Cargo cargo;
+
+    public Contrato(int duracaoContrato, String dataInicial, Funcionario funcionario, Cargo cargo) {
         this.duracaoContrato = duracaoContrato;
-        this.dataInicial = LocalDate.parse(dataInicial);
+        this.dataInicial = dataInicial;
         this.funcionario = funcionario;
+        this.cargo = cargo;
     }
 
     public int getduracaoContrato() {
         return duracaoContrato;
     }
 
-    public void setduracaoContrato(int duracaoContrato) {
-        this.duracaoContrato = duracaoContrato;
-    }
-
-    public LocalDate getdataInicial() {
+    public String getdataInicial() {
         return dataInicial;
     }
 
-    public void setdataInicial(LocalDate dataInicial) {
-        this.dataInicial = dataInicial;
+    public Cargo getCargo() {
+        return cargo;
     }
 
     public Funcionario getfuncionario() {
         return funcionario;
-    }
-
-    public void setfuncionario(Funcionario funcionario) {
-        this.funcionario = funcionario;
-    }
-
-    @Override
-    public int compareTo(Contrato o) {
-        if(this.getduracaoContrato() > o.getduracaoContrato()) return 1;
-        if(this.getduracaoContrato() < o.getduracaoContrato()) return -1;
-        return 0;
-    }
-
-    public boolean apto(Funcionario getfuncionario) {
-        if(this.getfuncionario().isRegistroMT() == true) {
-            return true;
-        } else {
-            return false;
-        }
     }
 }
