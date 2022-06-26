@@ -37,7 +37,7 @@ public class Funcionario {
     public String toString() {
         return "Nome: " + getprimeiroNome() + '\n' +
                "Sobrenome: " + getsobrenome() + '\n' +
-               "Idade: " + getidade() +
+               "Idade: " + getidade() + '\n' +
                "RG: " + getRg() + '\n' +
                "Registo no MT: " + getregistroMT() + "\n";
     }

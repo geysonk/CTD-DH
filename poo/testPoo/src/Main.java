@@ -7,13 +7,15 @@ public class Main {
 
 
         Funcionario nome = new Funcionario("Jorge", "Alberto", 33, "476890000", true);
-        Funcionario nome2 = new Funcionario("Alberto", "Jorge", 20, "476890263", false);
+        Funcionario nome2 = new Funcionario("Alberto", "Jorge", 20, "476890263", true);
 
         if(nome.getregistroMT()) {
-            System.out.println(nome + "e apto para contratacao, funcionario registrado no MT" + "\n");
+            System.out.println(nome.getprimeiroNome() + " e apto para contratacao, funcionario registrado no MT" + "\n");
 
             PorHora Contrato1 = new PorHora(12, "2022-02-02", nome,Cargo.CHEFE, 12, 100.0);
-            PorHora Contrato2 = new PorHora(8, "2022-02-02", nome2,Cargo.FUNCIONARIO, 30, 27.5);
+            System.out.println(Contrato1);
+
+
 
         } else{
 
@@ -21,10 +23,11 @@ public class Main {
         }
 
         if(nome2.getregistroMT()) {
-            System.out.println(nome2 + "e apto para contratacao, funcionario registrado no MT " + "\n");
+            System.out.println(nome2.getprimeiroNome() + " e apto para contratacao, funcionario registrado no MT " + "\n");
 
             PorHora Contrato1 = new PorHora(12, "2022-02-02", nome,Cargo.CHEFE, 12, 100.0);
             PorHora Contrato2 = new PorHora(8, "2022-02-02", nome2,Cargo.FUNCIONARIO, 30, 27.5);
+            System.out.println(Contrato2);
 
             System.out.println(Contrato2.compareTo(Contrato1));
 

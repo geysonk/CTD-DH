@@ -26,7 +26,7 @@ public class PorHora extends Contrato implements Comparable<PorHora> {
         return getfuncionario().toString() + "\n" +
                 getCargo() + "\n" +
                 "Horas por mes: " + this.gethoraMes() + "\n" +
-                "Preço por Hora: " + this.getprecoHora() + "\n" +
+                "Preco por Hora: " + this.getprecoHora() + "\n" +
                 "Duracao do Contrato: " + this.getduracaoContrato() + "\n" +
                 "Data Inicial: " + this.getdataInicial() + "\n";
     }
