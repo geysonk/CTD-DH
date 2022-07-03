@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0b9d40a-5cdf-4937-8c9f-b35feea9ce7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Envio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/PecaReposicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Reparacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reparos/src/Reparo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armazemOtimizado/src/Armazem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armazemOtimizado/src/Bola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armazemOtimizado/src/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../armazemOtimizado/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa2806/src/Carregando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa2806/src/Carrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa2806/src/Fechado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa2806/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa2806/src/Pagando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa2806/src/Vazio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prova/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testPoo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CTD-DH" beforeDir="false" afterPath="$PROJECT_DIR$/../../CTD-DH" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2BMKBSPIhbrHnBKw9iePZZXGcjR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0b9d40a-5cdf-4937-8c9f-b35feea9ce7a" name="Changes" comment="" />
+      <created>1656710379306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656710379306</updated>
+    </task>
+    <servers />
+  </component>
+</project>
